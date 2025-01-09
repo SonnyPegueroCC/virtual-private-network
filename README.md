@@ -17,7 +17,7 @@ This tutorial outlines the prerequisites and installation of using a VPN.<br />
 
 - Windows 10</b> (21H2)
 
-<h2>STEPS INCLUDED</h2>
+<h2>Steps Included</h2>
 
 Locate Local IP
 Setting Up VM Using Azure
