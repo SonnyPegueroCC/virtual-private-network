@@ -27,33 +27,37 @@ Locating IP Through VPN (Japan)
 
 <h2>Installation Steps</h2>
 
-Locate your IP address by going to "www.whatismyipaddress.com" which will be able to show you your local IP address.
+Find Your IP Address
+Go to www.whatismyipaddress.com to see your local IP address.
 
 <p>
 <img src="https://i.imgur.com/qDgu5K6.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
- We will set up a virtual machine on Azure. 
+Create an Azure Virtual Machine (VM)
+
+Visit www.portal.azure.com.
+Create a free Azure account if you don’t have one.
+In the portal, go to "Virtual Machines" and create a new VM named “VM-FranceCentral,” selecting the France Central region.
   
 </p>
 <br />
 
-Go to www.portal.azure.com and find Virtual Machines. (Create a free account with $200 if you need to).
 
 <p>
 <img src="https://i.imgur.com/K9oaS2z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Create the Virtual Machine on the VM as “VM-FranceCentral” and select that for the region as well.
 
 <p>
 <img src="https://i.imgur.com/u3vclL3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-For the Username and Password you can create your custom information, just record it personally.
+Set Up Credentials
+Choose your own username and password for the VM, and keep them secure.
   
 </p>
 <br />
@@ -63,7 +67,8 @@ For the Username and Password you can create your custom information, just recor
 </p>
 <p>
 
-Select the “Networking” tab towards the top of the page.
+Configure Networking
+Select the "Networking" tab and adjust any required settings.
   
 </p>
 <br />
@@ -73,12 +78,16 @@ Select the “Networking” tab towards the top of the page.
 </p>
 <p>
 
-Select “Review and Create”, once it passes validation select “Create” at the bottom. 
+Review and Create the VM
+
+Select "Review and Create."
+After validation, click "Create."
   
 </p>
 <br />
 
-At the Virtual Machine we find that the IP to the Virtual Machine is “20.216.176.18”.
+Find the VM’s IP Address
+Once the VM is created, note its public IP address (e.g., 20.216.176.18).
 
 
 <p>
@@ -86,10 +95,12 @@ At the Virtual Machine we find that the IP to the Virtual Machine is “20.216.1
 </p>
 <p>
 
+Log into the VM via Remote Desktop
 
-Log Into the VM and Find the IP Address
+Open Remote Desktop Connection on your local machine.
+Enter the VM’s IP and the credentials you set earlier to log in.
 <p>
-Now that we have set up the Virtual Machine we will be connecting to it using the application “Remote Desktop Connection” (EXAMPLE 3A) and input the IP address for the VM and then input the set credentials we set when creating the VM. Once logged in, we will open the web browser and again look up www.whatismyipaddress.com
+
 
   
 </p>
@@ -108,7 +119,8 @@ Now that we have set up the Virtual Machine we will be connecting to it using th
 </p>
 <p>
 
-When we look up the IP address for this VM through www.whatismyipaddress.com we see that this VM is showing the location for France
+Check the VM’s IP Address
+After logging into the VM, open a browser and visit www.whatismyipaddress.com again. The IP should show as being in France
   
 </p>
 <br />
@@ -118,9 +130,10 @@ When we look up the IP address for this VM through www.whatismyipaddress.com we 
 </p>
 <p>
 
-CONNECTING TO VPN (Free Version)
+Set Up a VPN on the VM
 
-Using the local computer go to protonvpn.com and create a free account (if you use the VM then French will display on your browser, so use a local computer desktop). Once you are logged into your account, copy the URL from the Proton VPN website and then paste the URL to the VM web browser. 
+On the local computer, create a free account on protonvpn.com.
+Copy the Proton VPN URL and paste it into the VM's browser.
 
   
 </p>
@@ -131,7 +144,10 @@ Using the local computer go to protonvpn.com and create a free account (if you u
 </p>
 <p>
 
-Once you have logged into your Proton VPN account on the VM, you will select “Downloads” and choose to download the “Windows” version. Once the application Proton VPN is installed we will log in using the credentials we used when setting up a free account on Proton VPN. Then connect to the VPN through the installed app.
+Install and Log into Proton VPN on the VM
+
+On the VM, download the "Windows" version of Proton VPN from the website.
+Log into Proton VPN with your account credentials and connect to the VPN.
   
 </p>
 <br />
@@ -142,7 +158,8 @@ Once you have logged into your Proton VPN account on the VM, you will select “
 </p>
 <p>
 
-On the left-hand side of the VPN, you can select a country where you want your VPN to be, the image below shows the VPN being connected to an IP in Japan.
+Choose a Country for the VPN
+In the Proton VPN app, select a country (e.g., Japan) for your VPN connection.
   
 </p>
 <br />
@@ -152,7 +169,8 @@ On the left-hand side of the VPN, you can select a country where you want your V
 </p>
 <p>
 
-We will look at the IP again using the VM browser now that we have connected the VPN to Japan. The website www.whatismyipaddress.com shows yet another IP address using the VPN from Japan.
+Check the VPN’s IP Address
+After connecting the VPN, visit www.whatismyipaddress.com on the VM again. It should show the new IP address from the VPN location (e.g., Japan).
 </p>
 <br />
 
@@ -161,14 +179,14 @@ We will look at the IP again using the VM browser now that we have connected the
 </p>
 <p>
 
-Looking at this exercise we see that we have utilized 3 different IP addresses just from your local computer to connect to the internet.
-Home IP (USA): 137.103.51.136
-Virtual Machin IP (France): 20.216.176.18
-Virtual Machin IP VPN (Japan) 212.102.51.251
+Summary of IP Addresses
+
+Your home IP (USA): 137.103.51.136
+VM IP (France): 20.216.176.18
+VPN IP (Japan): 212.102.51.251
 
   
 </p>
 <br />
-If you no longer need the VM, ensure to remove it from the Azure account for unwanted charges.
-
-**
+Remove the VM to Avoid Charges
+If you no longer need the VM, remove it from your Azure account to avoid unnecessary charges.
