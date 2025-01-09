@@ -89,7 +89,7 @@ At the Virtual Machine we find that the IP to the Virtual Machine is “20.216.1
 
 Log Into the VM and Find the IP Address
 <p>
-Now that we have set up the Virtual Machine we will be connecting to it using the application “Remote Desktop Connection” (EXAMPLE 3A) and input the IP address for the VM that we located in EXAMPLE 2E and then input the set credentials we set when creating the VM. Once logged in, we will open the web browser and again look up www.whatismyipaddress.com
+Now that we have set up the Virtual Machine we will be connecting to it using the application “Remote Desktop Connection” (EXAMPLE 3A) and input the IP address for the VM and then input the set credentials we set when creating the VM. Once logged in, we will open the web browser and again look up www.whatismyipaddress.com
 
   
 </p>
