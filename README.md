@@ -46,7 +46,7 @@ Go to www.portal.azure.com and find Virtual Machines. (Create a free account wit
 </p>
 <p>
 
-Creating the Virtual Machine on Example 2B the VM as “VM-FranceCentral” and select that for the REGION as well.
+Create the Virtual Machine on the VM as “VM-FranceCentral” and select that for the region as well.
 
 <p>
 <img src="https://i.imgur.com/u3vclL3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
