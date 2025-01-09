@@ -19,15 +19,15 @@ This tutorial outlines the prerequisites and installation of using a VPN.<br />
 
 <h2>STEPS INCLUDED</h2>
 
-- STEP 1 - Locate Local IP
-- STEP 2 - Setting Up VM Using Azure
-- STEP 3 - Locating IP Through VM (France)
-- STEP 4 - Connecting to VPN Through VM
-- STEP 5 - Locating IP Through VPN (Japan)
+Locate Local IP
+Setting Up VM Using Azure
+Locating IP Through VM (France)
+Connecting to VPN Through VM
+Locating IP Through VPN (Japan)
 
 <h2>Installation Steps</h2>
 
-STEP 1 - Locate your own personal IP address by going to "www.whatismyipaddress.com" which will be able to show you your local IP address. We will use this later as well.
+Locate your IP address by going to "www.whatismyipaddress.com" which will be able to show you your local IP address. We will use this later as well.
 
 <p>
 <img src="https://i.imgur.com/qDgu5K6.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -39,7 +39,7 @@ STEP 1 - Locate your own personal IP address by going to "www.whatismyipaddress.
 </p>
 <br />
 
-STEP 2 - Go to www.portal.azure.com and find Virtual Machines. (Create a free account with $200 if you need to).
+Go to www.portal.azure.com and find Virtual Machines. (Create a free account with $200 if you need to).
 
 <p>
 <img src="https://i.imgur.com/K9oaS2z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -118,7 +118,7 @@ When we look up the IP address for this VM through www.whatismyipaddress.com we 
 </p>
 <p>
 
-STEP 4 – CONNECTING TO VPN (Free Version)
+CONNECTING TO VPN (Free Version)
 
 Using the local computer go to protonvpn.com and create a free account (if you use the VM then French will display on your browser, so use a local computer desktop). Once you are logged into your account, copy the URL from the Proton VPN website and then paste the URL to the VM web browser. 
 
