@@ -27,7 +27,7 @@ Locating IP Through VPN (Japan)
 
 <h2>Installation Steps</h2>
 
-Locate your IP address by going to "www.whatismyipaddress.com" which will be able to show you your local IP address. We will use this later as well.
+Locate your IP address by going to "www.whatismyipaddress.com" which will be able to show you your local IP address.
 
 <p>
 <img src="https://i.imgur.com/qDgu5K6.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
